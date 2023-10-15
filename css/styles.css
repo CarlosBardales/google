@@ -3,13 +3,17 @@ body{
     margin: 0;
     padding: 0;
     font-size: 13 px ;
-    font-family: "Roboto,Arial,sans-serif";
+    font-family: ",Arial,sans-serif";
  
  }
 
  a {
     text-decoration: none;
     cursor:pointer;
+}
+nav{
+height: 48px;
+
 }
 
 header {
@@ -19,6 +23,7 @@ header {
 header nav {
     display: flex;
     justify-content: flex-end;
+    padding: 6px;
 }
 header nav .nav-right-section {
     width: 250px;
@@ -29,7 +34,7 @@ header nav .nav-right-section {
     align-items: center;
 }
 nav .nav-right-section a {
-    margin-right: 10px;
+    margin-right: 1px;
     color: #000000;
 }
 
@@ -39,8 +44,8 @@ nav .nav-right-section .menu-icon{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
  }
 
@@ -49,7 +54,67 @@ nav .nav-right-section img{
     margin-left: 10px;
 }
 
-.main-logo {
+
+main{
+    text-align: center;
+
+
+}
+main .main-logo {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 272px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto ;
+    padding: 20px;
+    height: 120px;
+     
+}
+
+main  .main-input-container{
+    width: 582px;
+    height: 41px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+main .main-input input{
+    width: 443px;
+    height: 27px;
+    border: none;
+    outline: none;
+
+}
+
+.main-buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+     height: 58px;
+}
+
+.main-buttons button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
