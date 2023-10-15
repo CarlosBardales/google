@@ -34,13 +34,13 @@ nav .nav-right-section a {
 }
 
 nav .nav-right-section .menu-icon{
-    background-image: url('/img/menu.jpg');
-    /* background-image: url('https://static.thenounproject.com/png/756729-200.png'); */
+   /* background-image: url('/img/menu.jpg');*/
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 18px;
-    height: 18px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
  }
 
