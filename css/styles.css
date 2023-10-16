@@ -1,10 +1,12 @@
 
+
 body{
     margin: 0;
     padding: 0;
-    font-size: 13 px ;
-    font-family: ",Arial,sans-serif";
+    font-size: 14 px ;
+    font-family: "arial,sans-serif";
     min-width: 560px;
+   
  }
 
  a {
@@ -12,7 +14,7 @@ body{
     cursor:pointer;
 }
 nav{
-height: 48px;
+    height: 48px;
 
 }
 
@@ -166,4 +168,61 @@ main .main-input input{
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+.main-buttons button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border-top: 1px #e4e4e4;
+    user-select: none;
+ }
+
+ @media (max-width: 857px){
+    footer{
+        justify-content: center;
+    }
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+
+
+.footer-left{
+justify-self: left;
+justify-items: left;
+justify-content: left;
+
+
+}
+
+.footer-right{
+justify-self: right;
+
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #70757a;
+    
 }
