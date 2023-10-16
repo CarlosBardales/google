@@ -4,7 +4,7 @@ body{
     padding: 0;
     font-size: 13 px ;
     font-family: ",Arial,sans-serif";
- 
+    min-width: 560px;
  }
 
  a {
@@ -19,11 +19,13 @@ height: 48px;
 header {
     width: 100%;
     height: 60px;
+    
 }
 header nav {
     display: flex;
     justify-content: flex-end;
     padding: 6px;
+    user-select: none;
 }
 header nav .nav-right-section {
     width: 250px;
@@ -66,27 +68,74 @@ main .main-logo {
     align-items: center;
     margin: 0 auto;
     width: 272px;
+    user-select: none;
 }
 
 main .main-input{
-    width: 530px;
-    margin: 0 auto ;
-    padding: 20px;
-    height: 120px;
+    width: auto;
+    margin: 8px;
+    height: 39px;
+    display: flex;
+    text-align: center;
+    word-break: break-word;
      
 }
 
 main  .main-input-container{
-    width: 582px;
-    height: 41px;
+    max-width: 698px;
+    height: 39px;
     border-radius: 100px;
     border: 1px solid #dfe1e5;
+    margin: 0px auto;
+    user-select: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
- 
-
+    align-items: normal;
+   
 }
+
+main  .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon{
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    padding-right: 13px;
+    user-select: none;
+}
+
+
+main .main-input .micro-icon{
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+main .main-input .lean-icon{
+    background-image: url('https://lh3.googleusercontent.com/H65Hxq0ooUCcwhoRGU-fwoXqrGS58mwa2vtr2ZfhGgJzMU0uYybOrZVBs8jydtR22TRC1k9XwDMD2xHB5BBU4IyXW7oH8PyCsq46uX6A42CmXP5GDZ2d');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    padding: 0 12px;
+}
+
+main .main-input div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 main .main-input input{
     width: 443px;
